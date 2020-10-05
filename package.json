@@ -94,6 +94,10 @@
                     "scope": "machine-overridable",
                     "description": "The path to clangd executable, e.g.: /usr/bin/clangd."
                 },
+                "clangd.compileCommandsDirectory": {
+                    "type": "string",
+                    "description": "The path to the folder that contains the compile_commands.json file, e.g.: ${workspaceFolder}."
+                },
                 "clangd.arguments": {
                     "type": "array",
                     "default": [],
